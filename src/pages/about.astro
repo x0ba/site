@@ -6,7 +6,7 @@ import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
 	title: "About",
-	description: "I'm a starter theme for Astro.build",
+	description: "I'll try not to dox myself here.",
 };
 ---
 
@@ -14,35 +14,30 @@ const meta = {
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Hi, I’m Daniel. You might know me as x0ba. I'm a high school student from San Jose, California.
 		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
+		<p>Here are my some of my skills/interests:</p>
 		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
+			<li>Grade 10 Violin.</li>
+			<li>Experienced in web development.</li>
+			<li>I like biking.</li>
+			<li>Learning Rust and C++ right now.</li>
 		</ul>
 		<p>
-			Clone or fork my <a
+			This site is published using <a
 				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
+				href="https://astro.build"
 				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
+				aria-label="github repository">Astro.</a
+		</p>
+		<p>
+			Find the source code <a
+				class="cactus-link inline-block"
+				href="https://github.com/x0ba/site"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="github repository">here.</a
 		</p>
 	</div>
 </PageLayout>
