@@ -20,7 +20,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@astrojs/check@^0.2.0":
+"@astrojs/check@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@astrojs/check/-/check-0.2.1.tgz#51f35afdd376db044a0819781418afe22f88bd42"
   integrity sha512-s85uBS/qjnqsKAeM0VKNWKvNaqvR06ZJupEwr2oT5/6Bti7qB5Vd8KekWIRAu2/WqOXHMFaDJz5D+qSizFnq5g==
@@ -158,7 +158,7 @@
     fast-xml-parser "^4.2.7"
     kleur "^4.1.5"
 
-"@astrojs/sitemap@^3.0.1":
+"@astrojs/sitemap@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@astrojs/sitemap/-/sitemap-3.0.2.tgz#0000dcb36d659d0abe75b13313d95896082de41e"
   integrity sha512-ldxCDc0+QHcq2jH4WJFcz5iBc5/SqotEqpT91dhvoLqoRUT5U21rQ6u6qA4FyRVjpd/0Nt1kFjEsRbwoB8IKiQ==
@@ -1089,7 +1089,7 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.9.tgz#72e164381659a49557b0a078b28308f2c6a3e1ce"
   integrity sha512-zC0iXxAv1C1ERURduJueYzkzZ2zaGyc+P2c95hgkikHPr3z8EdUZOlgEQ5X0DRmwDZn+hekycQnoeiiRVrmilQ==
 
-"@typescript-eslint/eslint-plugin@^6.7.4":
+"@typescript-eslint/eslint-plugin@^6.9.0":
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-6.9.0.tgz#fdb6f3821c0167e3356e9d89c80e8230b2e401f4"
   integrity sha512-lgX7F0azQwRPB7t7WAyeHWVfW1YJ9NIgd9mvGhfQpRY56X6AVf8mwM8Wol+0z4liE7XX3QOt8MN1rUKCfSjRIA==
@@ -5105,7 +5105,7 @@ prettier-plugin-astro@0.12.0:
     prettier "^3.0.0"
     sass-formatter "^0.7.6"
 
-prettier-plugin-tailwindcss@^0.5.5:
+prettier-plugin-tailwindcss@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.5.6.tgz#8e511857a49bf127f078985f52b04a70e8e92285"
   integrity sha512-2Xgb+GQlkPAUCFi3sV+NOYcSI5XgduvDBL2Zt/hwJudeKXkyvRS65c38SB0yb9UB40+1rL83I6m0RtlOQ8eHdg==
@@ -5486,10 +5486,10 @@ satori-html@^0.3.2:
   dependencies:
     ultrahtml "^1.2.0"
 
-satori@0.10.8:
-  version "0.10.8"
-  resolved "https://registry.yarnpkg.com/satori/-/satori-0.10.8.tgz#15dac06ef46d08e8fbc5bbb7e372eadbb7d2eded"
-  integrity sha512-WlPLxgpx5kIyMuOO6qi98DhZGIbRk5XJRqENkt6D6gyDBWGyo3M5kcSl0X/oSFHUH+n4unlzwMejoPM47s4zug==
+satori@0.10.9:
+  version "0.10.9"
+  resolved "https://registry.yarnpkg.com/satori/-/satori-0.10.9.tgz#efde2898ab4a5b09c072f0f4e112ac4a7d6a499c"
+  integrity sha512-XU9EELUEZuioT4acLIpCXxHcFzrsC8muvg0MY28d+TlqwxbkTzBmWbw+3+hnCzXT7YZ0Qm8k3eXktDaEu+qmEw==
   dependencies:
     "@shuding/opentype.js" "1.4.0-beta.0"
     css-background-parser "^0.1.0"
